@@ -6,7 +6,7 @@
 	<display-name></display-name>
 	<servlet>
 		<servlet-name>FileUploadServlet</servlet-name>
-		<servlet-class>com.klweb.servlet.FileUploadServlet</servlet-class>
+		<servlet-class>top.klweb.servlet.FileUploadServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>FileUploadServlet</servlet-name>
