@@ -25,7 +25,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
         <form action="<%=path %>/servlet/FileUploadServlet"  enctype="multipart/form-data"  method="post">  
             <table>  
                 <tr>  
-                    <td colspan="2" align="center">图片上传</td>  
+                    <td colspan="2" align="center">图片上传最大20M</td>  
                 </tr>  
                 <tr>  
                     <td>图片上传</td>  
