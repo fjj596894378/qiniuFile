@@ -40,8 +40,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
             </table>  
               
             <c:if test="${filePath!=null }">  
-            <p>${retResult}</p>  
-           <p> ${filePath} </p>  
+            <p>外链：${retResult}</p>  
+           
                 <p><img src="<%=path %>${filePath}"></p>  
             </c:if>  
         </form>  
